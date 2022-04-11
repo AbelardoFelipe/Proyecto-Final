@@ -1,0 +1,74 @@
+body{
+    font-family: Arial;
+    background-color: #18A383;
+    box-sizing: border-box;
+}
+
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn-green{
+    color: white;
+    background-color: #3CC93F;
+}
+
+.btn-green:hover{
+    background-color: #37B839;
+}
+
+.btn-green:active{
+    background-color: #29962A;
+}
+
+form{
+    background-color: white;
+    border-radius: 3px;
+    color: #999;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.divs{
+    margin: 3px;
+}
+
+input{
+    border: 0;
+    width: 270px;
+    margin: 3px;
+}
+
+.field{
+    border: solid 1px #CCC;
+    padding: 5px;
+    
+}
+
+#respuesta{
+    border: solid 8px #18A383;
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#seleccion{
+    margin: 3px;
+    padding: 4px;
+    width: 282px;
+}
+
+#pedido{
+    margin: 8px;
+}

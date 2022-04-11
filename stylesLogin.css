@@ -1,0 +1,39 @@
+form{
+    border-radius: 25px;
+    border-width: medium;
+    border-style: double;
+    text-align: center;
+    padding: 30px;
+}
+
+label{
+    float: left;
+    clear: both;
+}
+
+input[type="text"],input[type="password"]{
+    float: right;
+}
+
+input[type="submit"]{
+    clear: both;
+    display: block;
+}
+
+#respuesta{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#lista{
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin: 10px 50px;
+    padding: 10px;
+    border: 10px;
+    background-color:#cfc;
+}

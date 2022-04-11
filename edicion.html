@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar productos (ventana 3)</title>
+    <link rel="stylesheet" href="stylesEdit.css"/>
+</head>
+<body>
+    <div id="respuesta"></div>
+    <form id="formularioModificar">
+        <div class="divs" id="id">ID:</div>
+        <input type="text" id="idInput" class="field" disabled>
+        <div class="divs" id="nombre">Nombre:</div>
+        <input type="text" id="nombreInput" class="field"/>
+        <div class="divs" id="descripcion">Descripcion:</div>
+        <input type="text" id="descripcionInput" class="field"/>
+        <div class="divs" id="categoria">Categoria:</div>
+        <input type="text" id="categoriaInput" class="field"/>
+        <div class="divs" id="existencia">Existencia:</div>
+        <input type="number" id="existenciaInput" class="field"/>
+        <div class="center-content" id="botones">
+            <input id="limpiar" type="submit" class="btn btn-green" value="Limpiar">
+            <input id="guardar" type="submit" class="btn btn-green" value="Guardar">
+        </div>
+    </form>
+
+    <script src="edicion.js"></script>
+</body>
+</html>
